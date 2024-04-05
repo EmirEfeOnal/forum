@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Actor');
+body{
+    background-color: #f5fbff;
+}
+.grup-baslik{
+    background-color: #e3eaee;
+    padding: 15px 10px;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    border-radius: 7px;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.yan-baslik{
+    background-color: #e3eaee;
+    border-radius: 7px;
+    color:#33323a;
+    padding: 15px 10px;
+    margin: 0 0 10px 0;
+    min-width: 100%;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.yan-icerik{
+    font-weight: 400;
+    text-transform: none;
+    text-align: left;
+    min-width: 100%;
+    letter-spacing: 0.7px;
+    border-top: 2px solid #22415f;
+    padding: 2% 0;
+}
+.yan-icerik h6{
+    margin: 0;
+}
+.yan-icerik h6 a{
+    font-weight: 600;
+    font-size: 20px;
+    color:inherit;
+}
+.yan-icerik a{
+    font-weight: 400;
+    font-size: 15px;
+    color:inherit;
+}
+
+
+
+.konular{
+    width: 75%;
+}
+.yan{
+    width: auto;
+    
+}
+.main{
+    gap:2%;
+    margin: 2% 8% 0 8%;
+    display: flex;
+    font-family: 'Actor';
+    justify-content: flex-end;
+}
+
+html{
+    word-wrap: break-word;
+}
+
+a{
+    text-decoration:none;
+}

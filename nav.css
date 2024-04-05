@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Actor');
+.navbar{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    padding: 0.3em;
+    border-bottom: 2px solid;
+    color:#011221;
+    font-size: 1.4em;
+    font-family: 'Actor';
+    font-weight: 400;
+    gap:5%;
+    text-decoration: none;
+}
+.navbar:visited{
+    color:inherit;
+}
+body a{
+    text-decoration: none;
+}
+.logreg{
+    display:flex;
+    width: 100%;
+    flex-direction: row-reverse;
+    gap:25px;
+    margin-right: 4%;
+}
+.logo{
+    margin-left:3%;
+    font-size: 1.6em;
+    font-weight: 700;
+    color:#2f27ce;
+    letter-spacing:5px;
+    text-decoration: none;
+    cursor:default
+}
+.logo a:visited{
+    color:#2f27ce; 
+}
+.logreg ul:hover{
+    color: #22415f;
+    font-weight: 700;
+    cursor:pointer;
+}
+.logreg a:visited{
+    color:black;
+}
+
+.logreg li{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-content:flex-end;
+
+}
+.logreg li i{
+    cursor: pointer;
+}
+.logreg li div ul{
+    border-bottom:2px solid;
+    border-top:0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    margin:0;
+    padding:0;
+    color:black;
+    text-decoration: none;
+}
+.logreg li div{
+    position: absolute;
+    background-color: rgb(167, 211, 255, .6);
+    flex-wrap:wrap;
+    justify-content: center;
+    margin-left:1%;
+    margin-top:2.2%;
+    border-radius: 7px;
+    display:none;
+}
+.girisAktivite{
+    display:none;
+}

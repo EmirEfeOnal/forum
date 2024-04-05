@@ -1,0 +1,17 @@
+.begenilen{
+    font-size:25px;
+    display:flex;
+}
+.begenilen a{
+    font-weight: 700;
+}
+.begenilen_aciklama a{
+    font-weight: 400;
+    color:#1c7299;
+}
+ul{
+    display:flex;
+    border:1px solid;
+    border-radius: 7px;
+    flex-direction: column;
+}

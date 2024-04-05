@@ -1,0 +1,23 @@
+.alt_konu{
+    font-size:25px;
+    display:flex;
+}
+.alt_konu a{
+    font-weight: 700;
+}
+.alt_konu_aciklama a{
+    font-weight: 400;
+    color:#1c7299;
+}
+ul{
+    display:flex;
+    border:1px solid;
+    border-radius: 7px;
+    flex-direction: column;
+}
+.ekleme{
+    display:flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size:20px
+}

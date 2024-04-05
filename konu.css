@@ -1,0 +1,80 @@
+.icerik{
+    word-wrap: break-word;
+    width: 90%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 2%;
+    padding-top:2%;
+    border-bottom: 1px solid;
+    background-color:inherit;
+    margin-left: 1%;
+}
+.baslik{
+    text-align: center;
+    font-size: 50px;
+}
+.yorum{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+.yorum form{
+    display:flex;
+    flex-direction: column;
+    width:30%;
+}
+.yorum textarea{
+    width: 100%;
+    resize:none;
+}
+.yorum input{
+    margin-top: 1%;
+    background-color: inherit;
+    border: 1px solid #2e7de4;
+    color: #29476e;
+    border-radius: 7px;
+    width:100%;
+    padding: 0.6%;
+    cursor:pointer;
+}
+.yorum input:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+.yorumlar ul{
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 1%;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.yazan{
+    border-bottom:1px solid;
+    font-size:25px;
+    font-weight: 700;
+}
+.tarih{
+    position: absolute;
+    right: 5%;
+}
+.begen{
+    display:flex;
+    justify-content: center;
+    gap:5px;
+    margin-top:1%;
+    font-size:25px;
+    background-color: #183753;
+    border-radius: 423px;
+}
+.begeniYer{
+    border-radius: 999px;
+    padding: 0.4%;
+}
+.begeniText a{
+    color: #ffffff;
+}
+.begeniText a:hover{/*00ff79*/
+    color:#00adff;
+}

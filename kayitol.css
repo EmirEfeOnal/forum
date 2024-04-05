@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Actor');
+
+.container {
+    background-color: #f5fbff;
+    z-index: 9999;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -150px 0 0 -150px;
+	width:300px;
+	height:300px;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid;
+    position: fixed;
+}
+
+.register input{
+    color:#011221;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+
+.register{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+.register p{
+    margin:0;
+}
+
+.hata{
+    text-align: center;
+    margin:5px;
+
+}
+
+.submit{
+    background-color: inherit;
+    border: 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.submit:hover{
+    background-color: #dbdbdb;
+}
+
+body{
+    background-color: #f5fbff;
+    font-family: 'Actor';
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px); 
+    filter:brightness(0.4)
+}
