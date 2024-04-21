@@ -14,6 +14,8 @@ window.addEventListener("DOMContentLoaded", function() {
     var hata = document.getElementById("hata");
     var hataNerede = document.getElementById("hataNerede"); 
     var cikis = document.getElementById("cikis"); 
+    var kayitEkrani = document.getElementById("kayitEkrani");
+    var girisEkrani = document.getElementById("girisEkrani");
     if (hataNerede !=null){
         hataNerede=document.getElementById("hataNerede").innerHTML;
     }
@@ -29,6 +31,14 @@ window.addEventListener("DOMContentLoaded", function() {
                 giris.style.display = "none";
             }
         }),
+        kayitEkrani.addEventListener('click', function(event){
+            kayitOl.style.display = "block";
+            giris.style.display = "none";
+        }),
+        girisEkrani.addEventListener('click', function(event){
+            kayitOl.style.display = "none";
+            giris.style.display = "block";
+        }),
         kayitOl.addEventListener('click', function(event){
             if (event.target.closest(".blur")){
                 kayitOl.style.display = "none";
@@ -40,7 +50,6 @@ window.addEventListener("DOMContentLoaded", function() {
             }
             else{
                 kayitOl.style.display = "block";
-                console.log(hataNerede);
             }
         }
     }
@@ -52,6 +61,3 @@ window.addEventListener("DOMContentLoaded", function() {
         document.location.href = "/forum/anasayfa.php";
     });
 });
-
-
-    

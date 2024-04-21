@@ -54,7 +54,7 @@
                         $vtabani = new mysqli("localhost", "root", "", "forum");
                         $ipler = $vtabani->query('SELECT COUNT(ip) FROM iplist');
                         foreach($ipler as $say){
-                        echo '<a>Gün içerisindeki ziyaretci sayısı:'.$say['COUNT(ip)'].'</a>';}
+                        echo '<a>Toplam Ziyaretci sayısı:'.$say['COUNT(ip)'].'</a>';}
                         ?>
                         
                     </div>

@@ -73,7 +73,7 @@ if(isset($_POST['gonderKayit'])){
             ?>
             <input type="password" placeholder="Şifreni gir" name="sifre"><br>
             <input type="submit" value="Kayıt Ol" name="gonderKayit" class="submit">
-            <p>Zaten hesabın var mı?</p><a style="color: #2667b3;" href="giris.php">Giriş Yap</a>
+            <p>Zaten hesabın var mı?</p><a style="color: #2667b3;" href = "#" id = "girisEkrani">Giriş Yap</a>
         </form>
         <?php 
         if(!empty($error))

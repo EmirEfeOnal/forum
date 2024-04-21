@@ -24,7 +24,7 @@ $vtabani->close();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/forum/nav.css?v=1.21">
     <script src="https://kit.fontawesome.com/c0ceee8b72.js" crossorigin="anonymous"></script>
-    <script src="/forum/nav.js?v=1.32"></script>
+    <script src="/forum/nav.js?v=1.33"></script>
 </head>
 <div class="navbar">
         <div class="logreg">

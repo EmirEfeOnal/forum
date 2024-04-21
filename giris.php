@@ -43,7 +43,7 @@ if(isset($_POST['gonderGiris'])){
             <input type="text" placeholder="Kullanıcı adını gir" name="kAd"><br>
             <input type="password" placeholder="Şifreni gir" name="sifre"><br>
             <input type="submit" value="Giriş Yap" name="gonderGiris" class="submit">
-            <p>Hesabın yok mu?</p><a style="color: #2667b3;" href="kayitol.php">Kayıt Ol!</a>
+            <p>Hesabın yok mu?</p><a style="color: #2667b3;" id = "kayitEkrani" href="#">Kayıt Ol!</a>
         </form>
         <?php 
         if(!empty($error))
