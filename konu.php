@@ -58,7 +58,10 @@ if (isset($_POST['yorumGonder'])){
                     <div class="begeniText">';
                         $baglanti = new mysqli("localhost", "root", "", "forum");
                         $konu_id = $baglanti -> real_escape_string($_GET['id']);
-                        $k_id = $baglanti->query("SELECT account_id from begenme where icerik_id =".$konu_id);
+                        $isim = $_SESSION['isim'];
+                        $ac_id = $baglanti->query("SELECT id from accounts where username ='".$isim."'");
+                        $ac_id = mysqli_fetch_assoc($ac_id);
+                        $k_id = $baglanti->query("SELECT account_id from begenme where icerik_id =".$konu_id. " and account_id = ".$ac_id['id']);
                         if(mysqli_num_rows($k_id) > 0){
                             echo '<a href="#">Bu konuyu beğenmişsin <i class="fa-regular fa-face-laugh"></i></a>';
                         }
